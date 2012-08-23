@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Maptool Log Tagger v0.1.1.120818_Alpha</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lib/jquery.mobile-1.1.1.min.css" />
+    <link rel="stylesheet" href="lib/LogTagger.css" />
+    <script type="text/javascript" src="lib/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.mobile-1.1.1.min.js"></script>
+    <script type="text/javascript" src="lib/LogTagger.js"></script>
+
+</head>
+<body>
+
+<div data-role="page" id="input">
+    <div data-role="header" data-position="inline" data-theme="b">
+        <a href="LogTagger.html" rel="external" id="refresh" data-role="button" data-icon="refresh">清空</a>
+        <h2>粘贴log</h2>
+        <a href="#tagger" data-role="button" data-icon="arrow-r" data-transition="slidefade">下一步</a>
+    </div>
+    <div data-role="content">
+        <div data-role="fieldcontain">
+            <label for="log_text"><h3>说明：</h3>用任意文本编辑器（例如：记事本）打开Maptool的log文件（HTML格式），然后将文件内容粘贴至右侧文本框中。</label>
+            <textarea name="log_text" id="log_text">将log粘贴至此</textarea>
+            <div id="log_temp" hidden="hidden"></div>
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="tagger">
+    <div data-role="header" data-position="inline" data-theme="b">
+        <h2>选择颜色</h2>
+        <a href="#output" data-role="button" data-icon="arrow-r" class="ui-btn-right" data-transition="slidefade">下一步</a>
+    </div>
+    <div data-role="content">
+        <div id="color_selector" data-role="fieldcontain">
+            <h3>点击菜单选择颜色</h3>
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="output">
+    <div data-role="header" data-position="inline" data-theme="b">
+        <h2>上色结果</h2>
+    </div>
+    <div data-role="content">
+        <div data-role="fieldcontain">
+            <label for="log_output"><h3>输出:</h3></label>
+            <textarea name="log_output" id="log_output"></textarea>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
