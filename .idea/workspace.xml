@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4618481-699c-4e46-9ae2-76e4e00401e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/MaptoolLogTagger.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/ajax-loader.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/icons-18-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/icons-18-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/icons-36-black (Razor-PC's conflicted copy 2012-08-06).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/icons-36-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/icons-36-white (Razor-PC's conflicted copy 2012-08-06).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/icons-36-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LogTagger.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/LogTagger.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery-1.7.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery.mobile-1.1.1.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery.mobile-1.1.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/LogTagger.js" afterPath="$PROJECT_DIR$/lib/LogTagger.js" />
     </list>
     <ignored path="MaptoolLogTagger.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,15 +36,14 @@
       <file leaf-file-name="LogTagger.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/LogTagger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="7" selection-start="4890" selection-end="4890" vertical-scroll-proportion="0.13419913">
+            <state line="159" column="0" selection-start="4840" selection-end="4840" vertical-scroll-proportion="0.1919192">
               <folding>
                 <element signature="e#0#227#0" expanded="true" />
                 <element signature="e#930#3896#0" expanded="true" />
                 <element signature="e#1997#3557#0" expanded="true" />
-                <element signature="e#4109#4846#0" expanded="true" />
                 <element signature="e#4197#4465#0" expanded="true" />
                 <element signature="e#4469#4809#0" expanded="false" />
-                <element signature="e#4933#5679#0" expanded="true" />
+                <element signature="e#4933#5337#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -419,15 +396,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/LogTagger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="7" selection-start="4890" selection-end="4890" vertical-scroll-proportion="0.13419913">
+        <state line="159" column="0" selection-start="4840" selection-end="4840" vertical-scroll-proportion="0.1919192">
           <folding>
             <element signature="e#0#227#0" expanded="true" />
             <element signature="e#930#3896#0" expanded="true" />
             <element signature="e#1997#3557#0" expanded="true" />
-            <element signature="e#4109#4846#0" expanded="true" />
             <element signature="e#4197#4465#0" expanded="true" />
             <element signature="e#4469#4809#0" expanded="false" />
-            <element signature="e#4933#5679#0" expanded="true" />
+            <element signature="e#4933#5337#0" expanded="true" />
           </folding>
         </state>
       </provider>
