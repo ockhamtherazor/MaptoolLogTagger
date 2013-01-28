@@ -2,10 +2,6 @@ textarea.ui-input-text {
     height: 600px;
 }
 
-textarea#log_text {
-	color: #cccccc;
-}
-
 div#color_selector {
     text-align: center;
 }
