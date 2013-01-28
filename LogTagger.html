@@ -2,7 +2,7 @@
 <html>
 <head>
 
-    <title>MapTool Log Tagger v0.1.1.120818_Alpha</title>
+    <title>MapTool Log Tagger v0.2.2.130128_Beta</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="lib/jquery.mobile-1.1.1.min.css" />
@@ -14,46 +14,46 @@
 </head>
 <body>
 
-<div data-role="page" id="input">
-    <div data-role="header" data-position="inline" data-theme="b">
-        <a href="LogTagger.html" rel="external" id="refresh" data-role="button" data-icon="refresh">Clear</a>
-        <h2>First Step: Log Input</h2>
-        <a href="#tagger" data-role="button" data-icon="arrow-r" data-transition="slidefade">Next</a>
-    </div>
-    <div data-role="content">
-        <div data-role="fieldcontain">
-            <label for="log_text"><h3>How to:</h3>
-                Open your MapTool Log file (HTML format) in any editor (e.g. notepad). Then copy all content into the test box.
-            </label>
-            <textarea name="log_text" id="log_text" placeholder="Your log in me!"></textarea>
-            <div id="log_temp" hidden="hidden"></div>
+    <div data-role="page" id="input">
+        <div data-role="header" data-position="inline" data-theme="b">
+            <a href="LogTagger.html" rel="external" id="refresh" data-role="button" data-icon="refresh">Clear</a>
+            <h2>First Step: Log Input</h2>
+            <a href="#tagger" data-role="button" data-icon="arrow-r" data-transition="slidefade">Next</a>
+        </div>
+        <div data-role="content">
+            <div data-role="fieldcontain">
+                <label for="log_text"><h3>How to:</h3>
+                    Open your MapTool Log file (HTML format) in any editor (e.g. notepad). Then copy all content into the test box.
+                </label>
+                <textarea name="log_text" id="log_text" placeholder="Your log in me!"></textarea>
+                <div id="log_temp" hidden="hidden"></div>
+            </div>
         </div>
     </div>
-</div>
 
-<div data-role="page" id="tagger">
-    <div data-role="header" data-position="inline" data-theme="b">
-        <h2>Second Step: Pick Color</h2>
-        <a href="#output" data-role="button" data-icon="arrow-r" class="ui-btn-right" data-transition="slidefade">Next</a>
-    </div>
-    <div data-role="content">
-        <div id="color_selector" data-role="fieldcontain">
-            <h3>Pick color for everyone</h3>
+    <div data-role="page" id="tagger">
+        <div data-role="header" data-position="inline" data-theme="b">
+            <h2>Second Step: Pick Color</h2>
+            <a href="#output" data-role="button" data-icon="arrow-r" class="ui-btn-right" data-transition="slidefade">Next</a>
+        </div>
+        <div data-role="content">
+            <div id="color_selector" data-role="fieldcontain">
+                <h3>Pick color for everyone</h3>
+            </div>
         </div>
     </div>
-</div>
 
-<div data-role="page" id="output">
-    <div data-role="header" data-position="inline" data-theme="b">
-        <h2>Third Step: Log Output</h2>
-    </div>
-    <div data-role="content">
-        <div data-role="fieldcontain">
-            <label for="log_output"><h3>Output</h3></label>
-            <textarea name="log_output" id="log_output"></textarea>
+    <div data-role="page" id="output">
+        <div data-role="header" data-position="inline" data-theme="b">
+            <h2>Third Step: Log Output</h2>
+        </div>
+        <div data-role="content">
+            <div data-role="fieldcontain">
+                <label for="log_output"><h3>Output</h3></label>
+                <textarea name="log_output" id="log_output"></textarea>
+            </div>
         </div>
     </div>
-</div>
 
 </body>
 </html>
