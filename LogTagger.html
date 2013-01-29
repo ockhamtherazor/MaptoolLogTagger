@@ -22,6 +22,10 @@
         </div>
         <div data-role="content">
             <div data-role="fieldcontain">
+                <label for="delete_irrelevant">Delete Irrelevant Chat</label>
+                <input type="checkbox" name="delete_irrelevant" id="delete_irrelevant" />
+            </div>
+            <div data-role="fieldcontain">
                 <label for="log_text"><h3>How to:</h3>
                     Open your MapTool Log file (HTML format) in any editor (e.g. notepad). Then copy all content into the test box.
                 </label>
@@ -33,6 +37,7 @@
 
     <div data-role="page" id="tagger">
         <div data-role="header" data-position="inline" data-theme="b">
+            <a href="#input" data-role="button" data-icon="arrow-l" class="ui-btn-left" data-transition="slidefade">Return</a>
             <h2>Second Step: Pick Color</h2>
             <a href="#output" data-role="button" data-icon="arrow-r" class="ui-btn-right" data-transition="slidefade">Next</a>
         </div>
@@ -45,6 +50,7 @@
 
     <div data-role="page" id="output">
         <div data-role="header" data-position="inline" data-theme="b">
+            <a href="#tagger" data-role="button" data-icon="arrow-l" class="ui-btn-left" data-transition="slidefade">Return</a>
             <h2>Third Step: Log Output</h2>
         </div>
         <div data-role="content">
