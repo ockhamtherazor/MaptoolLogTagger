@@ -5,3 +5,7 @@ textarea.ui-input-text {
 div#color_selector {
     text-align: center;
 }
+
+div#hint {
+	text-align: center;
+}
